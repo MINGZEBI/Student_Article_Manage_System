@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="/assets/lib/layui/css/layui.css">
+</head>
+
+<body>
+    <div class="logoPosition">
+        <img src="assets/images/logo.png" alt="" />
+    </div>
+
+    <div class="loginAndRegBox">
+        <div class="title-box"></div>
+        <!--login div-->
+        <div class="login-box">
+            <!--login form-->
+            <form class="layui-form" id="form_login">
+                <!--UniKey-->
+                <div class="layui-form-item">
+                    <label class="layui-form-label"></label>
+                    <i class="layui-icon layui-icon-user"></i>
+                    <input type="text" name="username" required lay-verify="required" placeholder="Please Enter UniKey"
+                        autocomplete="off" class="layui-input">
+                </div>
+                <!--Password-->
+                <div class="layui-form-item">
+                    <i class="layui-icon layui-icon-password"></i>
+                    <label class="layui-form-label"></label>
+                    <input type="password" name="password" required lay-verify="required|pwd"
+                        placeholder="Please Enter Password" autocomplete="off" class="layui-input">
+                </div>
+                <!--button-->
+                <div class="layui-form-item">
+                    <button class="layui-btn layui-btn-fluid layui-btn-danger" lay-submit>Login
+                        Now</button>
+                </div>
+                <div class="layui-form-item links">
+                    <a href="javascript:;" id="link_reg">Sign Up</a>
+                </div>
+            </form>
+
+        </div>
+
+        <!--register div-->
+        <div class="reg-box">
+            <!--register form-->
+            <form class="layui-form" id="form_reg">
+                <!--UniKey-->
+                <div class="layui-form-item">
+                    <label class="layui-form-label"></label>
+                    <i class="layui-icon layui-icon-user"></i>
+                    <input type="text" name="username" required lay-verify="required" placeholder="Please Enter UniKey"
+                        autocomplete="off" class="layui-input">
+                </div>
+                <!--Password-->
+                <div class="layui-form-item">
+                    <i class="layui-icon layui-icon-password"></i>
+                    <label class="layui-form-label"></label>
+                    <input type="password" name="password" required lay-verify="required|pwd"
+                        placeholder="Please Enter Password" autocomplete="off" class="layui-input">
+                </div>
+                <!--Password Confirmation-->
+                <div class="layui-form-item">
+                    <i class="layui-icon layui-icon-password"></i>
+                    <label class="layui-form-label"></label>
+                    <input type="password" name="repassword" required lay-verify="required|pwd|repwd"
+                        placeholder="Please Confirm Your Password" autocomplete="off" class="layui-input">
+                </div>
+                <!--button-->
+                <div class="layui-form-item">
+                    <button class="layui-btn layui-btn-fluid layui-btn-danger" lay-submit>Register
+                        Now</button>
+                </div>
+                <div class="layui-form-item links">
+                    <a href="javascript:;" id="link_login">Sign In</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <!--Import Layui JS-->
+    <script src="/assets/lib/layui/layui.all.js"></script>
+    <!--JQ-->
+    <script src="/assets/lib/jquery.js"></script>
+    <script src="/assets/js/baseAPI.js"></script>
+    <!--JS-->
+    <script src="/assets/js/login.js"></script>
+</body>
+
+</html>
