@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARTICLE SUBMISSION</title>
+    <!-- 导入 layui 的样式表 -->
+    <link rel="stylesheet" href="/assets/lib/layui/css/layui.css" />
+    <!-- 导入第三方图标库 -->
+    <link rel="stylesheet" href="/assets/fonts/iconfont.css" />
+    <!-- 导入自己的样式表 -->
+    <link rel="stylesheet" href="/assets/css/index.css" />
+</head>
+
+<body class="layui-layout-body">
+    <div class="layui-layout layui-layout-admin">
+        <div class="layui-header" style="background-color: rgb(230,70, 38);">
+            <div class="layui-logo">
+                <img src="/assets/images/USydLogo.png" alt="" class="myLogo" />
+            </div>
+            <!-- header-->
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item">
+                    <a href="javascript:;" class="userinfo">
+                        <img src="http://t.cn/RCzsdCq" class="layui-nav-img" />
+                        <span class="text-avatar">A</span>
+                        User Profile
+                    </a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="">Basic Information</a></dd>
+                        <dd><a href="">Change Avatar</a></dd>
+                        <dd><a href="">Reset Password</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;" id="btnLogout"><span class="iconfont icon-tuichu"></span>Logout</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="layui-side layui-bg-black">
+            <div class="layui-side-scroll" style="background-color: rgb(57, 75, 88);">
+                <div class="userinfo">
+                    <img src="http://t.cn/RCzsdCq" class="layui-nav-img" />
+                    <span class="text-avatar">A</span>
+                    <span id="welcome">Welcome***</span>
+                </div>
+                <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+                <ul class="layui-nav layui-nav-tree" lay-shrink="all">
+                    <li class="layui-nav-item layui-this">
+                        <a href="/home/dashboard.html" target="fm"><span class="iconfont icon-home"></span>Home</a>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a class="" href="javascript:;"><span class="iconfont icon-16"></span>Article Management</a>
+                        <dl class="layui-nav-child">
+                            <dd>
+                                <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>Article category</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>Article List</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>Article Submission</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="javascript:;"><span class="iconfont icon-user"></span>User Profile</a>
+                        <dl class="layui-nav-child">
+                            <dd>
+                                <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>Basic Information</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>Change Avatar</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>Reset Password</a>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="layui-body">
+            <!-- 内容主体区域 -->
+            <iframe name="fm" src="" frameborder="0"></iframe>
+        </div>
+
+        <div class="layui-footer">
+            <!-- footer -->
+            © www.sydney.edu.au - University of Sydney
+        </div>
+    </div>
+    <!-- import layui.js -->
+    <script src="/assets/lib/layui/layui.all.js"></script>
+    <!-- import Jquery.js -->
+    <script src="/assets/lib/jquery.js"></script>
+    <!-- import baseAPI.js -->
+    <script src="/assets/js/baseAPI.js"></script>
+    <!-- import my.js -->
+    <script src="/assets/js/index.js"></script>
+
+    <canvas id="Mycanvas" style="position:fixed;z-index:-1;"></canvas>
+    <script src="/backgroundbg.js"></script>
+</body>
+
+</html>
