@@ -36,7 +36,7 @@
   }
   
   .layui-side-scroll .userinfo {
-    border-bottom: 1px solid rgb(57, 75, 88);
+    border-bottom: 3px solid rgb(230,70, 38);
   }
   
   .layui-nav-img {
@@ -55,8 +55,8 @@
     font-size: 20px;
     color: #fff;
     position: relative;
-    top: 4px;
-    margin-right: 10px;
+    top: 2px;
+    margin-right: 15px;
   }
   .myLogo{
         width: 180px;

@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ARTICLE SUBMISSION</title>
+    <title>ARTICLE SUBMISSION HOMEPAGE</title>
     <!-- 导入 layui 的样式表 -->
     <link rel="stylesheet" href="/assets/lib/layui/css/layui.css" />
     <!-- 导入第三方图标库 -->
     <link rel="stylesheet" href="/assets/fonts/iconfont.css" />
+    <link rel="stylesheet" href="/assets/font_08pb5kbg4wyv/iconfont.css" />
     <!-- 导入自己的样式表 -->
     <link rel="stylesheet" href="/assets/css/index.css" />
 </head>
@@ -28,9 +29,20 @@
                         User Profile
                     </a>
                     <dl class="layui-nav-child">
-                        <dd><a href="">Basic Information</a></dd>
-                        <dd><a href="">Change Avatar</a></dd>
-                        <dd><a href="">Reset Password</a></dd>
+                        <dd>
+                            <a href="user/user_info.html" target="fm"><i
+                                    class="iconfont icon-icon-usermanagement"></i>Basic
+                                Information</a>
+                        </dd>
+                        <dd>
+                            <a href="user/user_avatar.html" target="fm"><i class="iconfont icon-icon-Kanban
+                                "></i>Change Avatar</a>
+                        </dd>
+                        <dd>
+                            <a href="/user/user_pwd.html" target="fm"><i
+                                    class="iconfont icon-icon-Systembackup"></i>Reset
+                                Password</a>
+                        </dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item">
@@ -49,19 +61,23 @@
                 <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
                 <ul class="layui-nav layui-nav-tree" lay-shrink="all">
                     <li class="layui-nav-item layui-this">
-                        <a href="/home/dashboard.html" target="fm"><span class="iconfont icon-home"></span>Home</a>
+                        <a href="/home/dashboard.html" target="fm"><span
+                                class="iconfont icon-icon-homepage"></span>Home</a>
                     </li>
                     <li class="layui-nav-item">
-                        <a class="" href="javascript:;"><span class="iconfont icon-16"></span>Article Management</a>
+                        <a class="" href="javascript:;"><span class="iconfont icon-icon-taskmanagement"></span>Article
+                            Management</a>
                         <dl class="layui-nav-child">
                             <dd>
-                                <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>Article category</a>
+                                <a href="javascript:;"><i class="iconfont icon-icon-datasource"></i>Article
+                                    category</a>
                             </dd>
                             <dd>
-                                <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>Article List</a>
+                                <a href="javascript:;"><i class="iconfont icon-icon-form"></i>Article List</a>
                             </dd>
                             <dd>
-                                <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>Article Submission</a>
+                                <a href="javascript:;"><i class="iconfont icon-icon-reportform"></i>Article
+                                    Submission</a>
                             </dd>
                         </dl>
                     </li>
@@ -69,13 +85,17 @@
                         <a href="javascript:;"><span class="iconfont icon-user"></span>User Profile</a>
                         <dl class="layui-nav-child">
                             <dd>
-                                <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>Basic Information</a>
+                                <a href="/user/user_info.html" target="fm"><i
+                                        class="iconfont icon-icon-usermanagement"></i>Basic
+                                    Information</a>
                             </dd>
                             <dd>
-                                <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>Change Avatar</a>
+                                <a href="user/user_avatar.html" target="fm"><i class="iconfont icon-icon-Kanban
+                                    "></i>Change Avatar</a>
                             </dd>
                             <dd>
-                                <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>Reset Password</a>
+                                <a href="/user/user_pwd.html" target="fm"><i
+                                        class="iconfont icon-icon-Systembackup"></i>Reset Password</a>
                             </dd>
                         </dl>
                     </li>

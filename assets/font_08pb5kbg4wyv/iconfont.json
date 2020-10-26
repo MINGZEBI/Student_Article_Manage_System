@@ -1,0 +1,163 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17843035",
+      "name": "icon-data dictionary",
+      "font_class": "icon-datadictionary",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "17843036",
+      "name": "icon-Chart",
+      "font_class": "icon-Chart",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "17843037",
+      "name": "icon-Data center",
+      "font_class": "icon-Datacenter",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "17843038",
+      "name": "icon-data source",
+      "font_class": "icon-datasource",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "17843039",
+      "name": "icon-Dimension management",
+      "font_class": "icon-Dimensionmanagement",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "17843040",
+      "name": "icon-Kanban",
+      "font_class": "icon-Kanban",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "17843041",
+      "name": "icon-Data entry",
+      "font_class": "icon-Dataentry",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "17843042",
+      "name": "icon-home page",
+      "font_class": "icon-homepage",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "17843043",
+      "name": "icon-Index management",
+      "font_class": "icon-Indexmanagement",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "17843044",
+      "name": "icon-form",
+      "font_class": "icon-form",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "17843045",
+      "name": "icon-data set",
+      "font_class": "icon-dataset",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "17843046",
+      "name": "icon-System backup",
+      "font_class": "icon-Systembackup",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "17843047",
+      "name": "icon-Picture warehouse",
+      "font_class": "icon-Picturewarehouse",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "17843048",
+      "name": "icon-Platform log",
+      "font_class": "icon-Platformlog",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "17843049",
+      "name": "icon-Data pipeline",
+      "font_class": "icon-Datapipeline",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "17843050",
+      "name": "icon-Page configuration",
+      "font_class": "icon-Pageconfiguration",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "17843051",
+      "name": "icon-Role permissions",
+      "font_class": "icon-Rolepermissions",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "17843052",
+      "name": "icon-Query module",
+      "font_class": "icon-Querymodule",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "17843053",
+      "name": "icon-task management",
+      "font_class": "icon-taskmanagement",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "17843054",
+      "name": "icon-Organization and management",
+      "font_class": "icon-Organizationandmanagement",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "17843055",
+      "name": "icon-user management",
+      "font_class": "icon-usermanagement",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "17843211",
+      "name": "icon-report form",
+      "font_class": "icon-reportform",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    }
+  ]
+}
