@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 15px;
+  background-color: rgba(230,70, 3,0.3);
+}
+
+.layui-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+#form-add,
+#form-edit {
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.layui-card{
+  background-color: rgba(231, 233, 238, 0.7) ;
+}
+
+.btn-edit{
+  background-color: royalblue;
+}
+
+.layui-form-label{
+  padding-top: 0;
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 15px;
+  background-color: rgba(230,70, 3,0.3);
+}
+
+.layui-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.layui-card{
+  background-color: rgba(231, 233, 238, 0.7) ;
+}
+.btn-edit{
+    background-color: royalblue;
+}
+
+.btn-search{
+  background-color: rgb(230, 70, 38);
+}
+
+.layui-form-select dl dd.layui-this{
+  background-color: rgb(230, 70, 38);
+}
+.layui-laypage a, .layui-laypage span{
+  background-color: rgba(231, 233, 238, 0.7) ;
+}
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+  background-color: rgb(230, 70, 38)
+}

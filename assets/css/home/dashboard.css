@@ -1,0 +1,22 @@
+.body{
+    background-color: salmon;
+}
+.layui-carousel{
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+#Mycanvas{
+    background-color: rgba(250, 128, 114,0.4);
+}
+
+.welcome{
+    position: absolute;
+    left: 800px;
+    top: 10px;
+    font-size: 45px;
+    width: 700px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(135, 206, 235,0.3);
+}

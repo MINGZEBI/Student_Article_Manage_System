@@ -5,12 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ARTICLE SUBMISSION HOMEPAGE</title>
-    <!-- 导入 layui 的样式表 -->
     <link rel="stylesheet" href="/assets/lib/layui/css/layui.css" />
-    <!-- 导入第三方图标库 -->
     <link rel="stylesheet" href="/assets/fonts/iconfont.css" />
     <link rel="stylesheet" href="/assets/font_08pb5kbg4wyv/iconfont.css" />
-    <!-- 导入自己的样式表 -->
     <link rel="stylesheet" href="/assets/css/index.css" />
 </head>
 
@@ -58,7 +55,7 @@
                     <span class="text-avatar">A</span>
                     <span id="welcome">Welcome***</span>
                 </div>
-                <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+                <!-- nav area left -->
                 <ul class="layui-nav layui-nav-tree" lay-shrink="all">
                     <li class="layui-nav-item layui-this">
                         <a href="/home/dashboard.html" target="fm"><span
@@ -69,14 +66,17 @@
                             Management</a>
                         <dl class="layui-nav-child">
                             <dd>
-                                <a href="javascript:;"><i class="iconfont icon-icon-datasource"></i>Article
+                                <a href="/article/art_cate.html" target="fm"><i
+                                        class="iconfont icon-icon-datasource"></i>Article
                                     category</a>
                             </dd>
                             <dd>
-                                <a href="javascript:;"><i class="iconfont icon-icon-form"></i>Article List</a>
+                                <a href="/article/art_list.html" target="fm"><i
+                                        class="iconfont icon-icon-form"></i>Article List</a>
                             </dd>
                             <dd>
-                                <a href="javascript:;"><i class="iconfont icon-icon-reportform"></i>Article
+                                <a href="/article/art_pub.html" target="fm"><i
+                                        class="iconfont icon-icon-reportform"></i>Article
                                     Submission</a>
                             </dd>
                         </dl>
@@ -105,7 +105,7 @@
 
         <div class="layui-body">
             <!-- 内容主体区域 -->
-            <iframe name="fm" src="" frameborder="0"></iframe>
+            <iframe name="fm" src="/home/dashboard.html" frameborder="0"></iframe>
         </div>
 
         <div class="layui-footer">
