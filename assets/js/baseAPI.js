@@ -9,7 +9,7 @@ $.ajaxPrefilter(function (options) {
     }
     options.complete = function (res) {
         if (res.responseJSON.status === 1 && res.responseJSON.
-            message === '身份认证失败！') {
+            message === 'Failed') {
             //console.log(res.responseJSON.status)
             //console.log(res.responseJSON.message)
             localStorage.removeItem('token')

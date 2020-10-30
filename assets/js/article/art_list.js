@@ -141,7 +141,7 @@ $(function () {
         var id = $(this).attr('data-id')
         console.log(id)
         getArticleInfo(id)
-        //location.href = '/article/art_pub.html'
+        location.href = '../../article/art_pub.html'
     })
 
 })

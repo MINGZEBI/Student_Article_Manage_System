@@ -12,3 +12,7 @@ body{
 .layui-form{
     width: 500px;
 } 
+
+.btnOrange{
+    background-color:rgba(230,70, 30) ;
+}
