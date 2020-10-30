@@ -6,7 +6,7 @@ A platform for student personal article submission
 
 
 以下为项目的预览：
-[demo]https://mingzebi.github.io/Student_Article_Manage_System/login.html
+[demo]http://mingzebi.github.io/Student_Article_Manage_System/login.html
 
 
 初次登陆的用户请先通过Sign up 注册一个账户和密码
