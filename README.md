@@ -16,6 +16,10 @@ A platform for student personal article submission
 论文提交功能：论文提交，论文分类，论文的编辑和删除
 用户操作功能：更改头像，更改用户名和密码，更改个人信息
 
+初次登陆Article List为空，需要自主进行提交
+
+
+
 登陆后的首页比较简陋，还没有好的素材，日后进行完善！
 
 
